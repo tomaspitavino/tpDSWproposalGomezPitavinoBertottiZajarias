@@ -185,5 +185,3 @@ Hay validación en el frontend (longitudes, números no negativos, URL válida) 
 
 **Carga de catálogos:**
 Al montar, hace dos requests en paralelo con `Promise.all` para cargar categorías y materiales disponibles para los selects. Más eficiente que hacerlos secuencialmente.
-
-¿Querés repasar algo más del backend o del flujo completo?
